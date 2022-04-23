@@ -27,7 +27,14 @@ class AuthViewController: UIViewController {
         view.backgroundColor = .white
         setupConstraints()
     }
-    
+
+
+}
+
+
+// MARK: - Setup constraints
+
+extension AuthViewController {
     private func setupConstraints() {
         logoImageView.translatesAutoresizingMaskIntoConstraints = false
         
@@ -58,8 +65,6 @@ class AuthViewController: UIViewController {
         
         
     }
-
-
 }
 
 
@@ -84,6 +89,5 @@ struct AuthVCProvider: PreviewProvider {
             
         }
     }
-    
 }
 
