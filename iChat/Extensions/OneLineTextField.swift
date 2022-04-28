@@ -28,6 +28,5 @@ class OneLineTextField: UITextField {
             bottomView.trailingAnchor.constraint(equalTo: self.trailingAnchor),
             bottomView.heightAnchor.constraint(equalToConstant: 1)
         ])
-        
     }
 }
